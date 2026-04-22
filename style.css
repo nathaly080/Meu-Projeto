@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+.cabecalho {
+  text-align: center;
+  padding: 2rem;
+  background: #6c63ff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.secao {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 150px;
+  padding: 20px;
+  background: #6c63ff;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.destaque {
+  text-align: center;
+  background: #87dc876e;
+}
+
+.rodape {
+  text-align: center;
+  padding: 15px;
+  background: #c0bfb8;
+}
